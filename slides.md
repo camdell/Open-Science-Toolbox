@@ -80,13 +80,12 @@ Additional Resources
 
 *Creative Commons Licenses are often preferred due*
 
-These licenses do not have statments about source code distribution and therefore are not fit for software.
+These licenses do not have statements about source code distribution and therefore are not fit for software.
     - [Can I apply a Creative Commons license to software?](https://creativecommons.org/faq/#can-i-apply-a-creative-commons-license-to-software)
 **Creative Commons License Clauses**
 BY: credit must be given to the creator.
 SA: Adaptations must be shared under the same terms.
 NC: Only noncommercial uses of the work are permitted.
-SA: Adaptations must be shared under the same terms.
 ND: No derivatives or adaptations of the work are permitted.
 
 **Creative Commons Licenses**
@@ -96,7 +95,7 @@ ND: No derivatives or adaptations of the work are permitted.
 4. CC BY-NC-SA
 5. CC BY-ND
 6. CC BY-NC-ND
-7.  CC0 (aka CC Zero)
+7. CC0 (aka CC Zero)
 
 https://creativecommons.org/share-your-work/cclicenses/
 
@@ -115,7 +114,7 @@ https://creativecommons.org/share-your-work/cclicenses/
 - Repetition & Automation
 - Scalability
 
-**The Commandline**: a tool as flexible as the research you do
+**The Command line**: a tool as flexible as the research you do
 - You might process genomic data today and scrape web archives tomorrow.
 - Tools change rapidly, but data still needs to be moved, cleaned, and transformed.
 - The command line gives you:
@@ -145,12 +144,12 @@ This idea favors script-based workflows over [Jupyter](https://jupyter.org/) not
 [Assessing and restoring reproducibility of Jupyter notebooks](https://dl.acm.org/doi/abs/10.1145/3324884.3416585)
 
 However to enhance the reproducibility of your jupyter notebooks you can:
-1. Use [`jupyter --execute …`](https://docs.jupyter.org/en/latest/running.html#using-a-command-line-interface)
+1. Use [`jupyter execute …`](https://docs.jupyter.org/en/latest/running.html#using-a-command-line-interface)
 2. Save a markdown copy of the notebook (for accessibility; [Jupytext](https://jupytext.readthedocs.io/en/latest/))
 
 **[Marimo](https://marimo.io/) has overcome many of the above**
 
-Dont Forget to:
+Don't Forget to:
 - Document your work! (create a README)
 - License your work (create a LICENSE)
 - Receive a DOI by uploading a working snapshot to an archive repository (create or update your CITATION.cff)
