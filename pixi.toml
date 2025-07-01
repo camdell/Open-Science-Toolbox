@@ -1,0 +1,20 @@
+[workspace]
+authors = ["Cameron Riddell <cameron@dutc.io>"]
+channels = ["conda-forge"]
+name = "openscience-toolbox"
+platforms = ["linux-64", "osx-64", "win-64"]
+version = "0.1.0"
+
+[tasks]
+fetch-data = "python scripts/fetch_raw.py"
+extract-data = { cmd = "python scripts/extract_data.py", depends-on = ["fetch-data"] }
+analyze = { cmd = "python scripts/analysis.py", depends-on = ["extract-data"] }
+
+[dependencies]
+requests = ">=2.32.4,<3"
+requests-cache = ">=1.2.1,<2"
+python = "==3.12"
+marimo = ">=0.14.9,<0.15"
+pandas = ">=2.3.0,<3"
+pyarrow = ">=20.0.0,<21"
+matplotlib = ">=3.10.3,<4"
